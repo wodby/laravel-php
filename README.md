@@ -49,4 +49,4 @@ commands:
 
 See [wodby/php](https://github.com/wodby/php) for all actions
 
-[_(Dockerfile)_]: https://github.com/wodby/laravel-php/tree/master/Dockerfile
+[_(Dockerfile)_]: https://github.com/wodby/laravel-php/tree/main/Dockerfile
