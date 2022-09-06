@@ -3,8 +3,7 @@ name: Build docker image
 on:
   push:
     branches:
-    - master
-    - 4.x
+    - main
 
     tags:
     - '*'
