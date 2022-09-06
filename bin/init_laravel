@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -e
+
+if [[ -n "${DEBUG}" ]]; then
+    set -x
+fi
+
+# Set up symlink for files dir.
+files_link "${APP_ROOT}/storage/app/public"
