@@ -6,7 +6,7 @@
 
 ## Docker Images
 
-❗For better reliability we release images with stability tags (`wodby/laravel-php:8.0-X.X.X`) which correspond to [git tags](https://github.com/wodby/laravel-php/releases). We strongly recommend using images only with stability tags. 
+❗For better reliability we release images with stability tags (`wodby/laravel-php:8-X.X.X`) which correspond to [git tags](https://github.com/wodby/laravel-php/releases). We strongly recommend using images only with stability tags. 
 
 Overview:
 

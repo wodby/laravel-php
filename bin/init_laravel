@@ -6,5 +6,6 @@ if [[ -n "${DEBUG}" ]]; then
     set -x
 fi
 
+sudo fix_laravel_permissions
 # Set up symlink for files dir.
 files_link "${APP_ROOT}/storage/app/public"

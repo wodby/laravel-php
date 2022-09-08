@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -e
+
+if [[ -n "${DEBUG}" ]]; then
+    set -x
+fi
+
+chown -R www-data:www-data "${APP_ROOT}/storage"
+chmod 775 "${APP_ROOT}/storage"
