@@ -17,15 +17,15 @@ Overview:
 
 Supported tags and respective `Dockerfile` links:
 
-- `8.2`, `8`, `latest`  [_(Dockerfile)_]
+- `8.3`, `8`, `latest`  [_(Dockerfile)_]
+- `8.2` [_(Dockerfile)_]
 - `8.1` [_(Dockerfile)_]
-- `8.0` [_(Dockerfile)_]
-- `8.2-dev`, `8-dev`, `dev` [_(Dockerfile)_]
+- `8.3-dev`, `8-dev`, `dev` [_(Dockerfile)_]
+- `8.2-dev` [_(Dockerfile)_]
 - `8.1-dev` [_(Dockerfile)_]
-- `8.0-dev` [_(Dockerfile)_]
-- `8.2-dev-macos`, `8-dev-macos`, `dev-macos` [_(Dockerfile)_]
+- `8.3-dev-macos`, `8-dev-macos`, `dev-macos` [_(Dockerfile)_]
+- `8.2-dev-macos` [_(Dockerfile)_]
 - `8.1-dev-macos` [_(Dockerfile)_]
-- `8.0-dev-macos` [_(Dockerfile)_]
 
 See [wodby/php](https://github.com/wodby/php) for the exact PHP version
 
