@@ -1,4 +1,4 @@
-# PHP (FPM) for Laravel Docker Container Image 
+# PHP (FPM) for Laravel Docker Container Image
 
 [![Build Status](https://github.com/wodby/laravel-php/workflows/Build%20docker%20image/badge.svg)](https://github.com/wodby/laravel-php/actions)
 [![Docker Pulls](https://img.shields.io/docker/pulls/wodby/laravel-php.svg)](https://hub.docker.com/r/wodby/laravel-php)
@@ -6,13 +6,14 @@
 
 ## Docker Images
 
-❗For better reliability we release images with stability tags (`wodby/laravel-php:8-X.X.X`) which correspond to [git tags](https://github.com/wodby/laravel-php/releases). We strongly recommend using images only with stability tags. 
+❗For better reliability we release images with stability tags (
+`wodby/laravel-php:8-X.X.X`) which correspond to [git tags](https://github.com/wodby/laravel-php/releases). We strongly recommend using images only with stability tags.
 
 Overview:
 
 - All images based on Alpine Linux
 - Base image: [wodby/php](https://github.com/wodby/php)
-- [GitHub actions builds](https://github.com/wodby/laravel-php/actions) 
+- [GitHub actions builds](https://github.com/wodby/laravel-php/actions)
 - [Docker Hub](https://hub.docker.com/r/wodby/laravel-php)
 
 Supported tags and respective `Dockerfile` links:
@@ -40,9 +41,14 @@ See `templates/.env.tmpl`
 
 See [wodby/php](https://github.com/wodby/php) for all variables
 
+## Tools
+
+This image comes with [Laravel installer](https://laravel.com/docs/11.x/installation#installing-php) latest version installed globally via Composer.
+
 ## Orchestration Actions
 
 Usage:
+
 ```
 make COMMAND [params ...]
  

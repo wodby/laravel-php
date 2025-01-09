@@ -7,12 +7,12 @@ USER root
 RUN set -ex; \
     \
     mv /usr/local/bin/actions.mk /usr/local/bin/php.mk; \
-    # Change overridden target name to avoid warnings.
-    sed -i 's/git-checkout:/php-git-checkout:/' /usr/local/bin/php.mk; \
     \
     sed -i '$ s#$#, /usr/local/bin/fix_laravel_permissions#' /etc/sudoers.d/wodby
 
 USER wodby
+
+RUN composer global require laravel/installer
 
 COPY templates /etc/gotpl/
 COPY bin /usr/local/bin
